@@ -1,0 +1,11 @@
+VBoxManage list vms
+VBoxManage startvm "name" --type headless
+VBoxManage clonevm ttylinux --name 123 --register
+VBoxManage controlvm "Win XP" poweroff
+VBoxManage controlvm --name-- poweroff | pause | resume | reset | savestate
+
+VBoxManage controlvm "Win XP" poweroff --type headless
+
+
+
+system("VBoxManage clonevm $name --name $name-clone --register");

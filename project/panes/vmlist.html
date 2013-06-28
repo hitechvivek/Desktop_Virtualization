@@ -1,0 +1,34 @@
+<div id='vboxChooserDiv'></div>
+<script type='text/javascript'>
+
+vboxChooser.setAnchorId('vboxChooserDiv');
+
+// Stop actions
+var sChildren = [];
+for(var i = 0; i < vboxVMActions.stop_actions.length; i++) {
+	sChildren[sChildren.length] = $.extend(true,{},vboxVMActions[vboxVMActions.stop_actions[i]],{'name':vboxVMActions.stop_actions[i],'iconStringDisabled':'_disabled'});
+}
+
+// VM List Group context menu
+vboxChooser.setContextMenu('group', []);
+
+
+/*
+ * VM Context menu setup (menu per VM in list)
+ */
+vboxChooser.setContextMenu('vm',[
+]);
+
+// Don't need thse anymore
+sChildren = null;
+
+/*
+ * VM list context menu setup
+ */
+vboxChooser.setContextMenu('anchor', [
+]);
+
+
+vboxChooser.start();
+
+</script>

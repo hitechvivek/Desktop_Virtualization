@@ -1,0 +1,7 @@
+#!/bin/sh
+PHPRC=/opt/rubystack/php/etc
+export PHPRC
+PHP_PEAR_SYSCONF_DIR=/opt/rubystack/php/etc
+export PHP_PEAR_SYSCONF_DIR
+. /opt/rubystack/php/../scripts/setenv.sh
+exec /opt/rubystack/php/bin/php-cgi.bin "$@"

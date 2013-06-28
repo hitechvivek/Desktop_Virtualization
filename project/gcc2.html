@@ -1,0 +1,55 @@
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<script>
+function ll(){
+var textar="#include<stdio.h>\nint main()\n{\n\tprintf(\"hello\")\;\n}"
+document.getElementById('pro').value=textar;
+}
+function ll1(){
+var textar="#include <stdio.h>\n#include <ctype.h>\nint main()\n{\nint i=10\;\nchar pat[]=\"Desktop Virtualization\"\;\nwhile(i>0)\n{\nprintf(\"\\n\\nDesktop Virtualization Project Compiler Module\\n\\n\")\;\ni--\;}\n}"
+document.getElementById('pro').value=textar;
+}
+</script>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+  <head>
+    <title>CIT Mock Test</title>
+    <link rel="stylesheet" type="text/css" href="css/swish.css"/>
+    <link rel="stylesheet" type="text/css" href="css/local.css"/>
+        <script type="text/javascript" src="js/jquery.dataTables.js"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.datesort.js"></script>
+	<link href="js/facebox/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		var isLocal = "";
+	</script>
+  </head>
+<body>
+<div class="content">
+<div id="logo">ONLINE COMPILER</a></div>
+<div id="container">
+<h1>ONLINE GCC COMPILER</h1>
+<h4>
+<FORM METHOD="POST" ACTION="../cgi-bin/gcc.pl">
+<textarea rows="15" cols="115" name="pro" id="pro"></textarea>
+<center>
+<table align=center>
+<tr>
+<input type=button value="Template1" onclick=ll()>
+</tr><tr><input type=button value="Template2" onclick=ll1()>
+</tr><tr><INPUT TYPE="Submit" VALUE="Compile"> </FORM></h4>
+</tr>
+</table>
+</center>
+<ul>
+<font size="4 px" face="calibri">
+</font>
+</ul>
+<center>
+</div>
+<div id="footer">
+Version 1.0&nbsp;|&nbsp;Copyright &copy 2012
+</div>
+</div>
+</body>
+</html>
