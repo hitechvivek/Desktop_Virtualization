@@ -8,10 +8,10 @@ We propose a server based desktop virtualization system, in which mobile phones 
 =========
 OBJECTIVE
 =========
-To provide complete E-Learning solution i.e Student should be able to use whatever operating system or applications that they want to use in their minimal device. So here we are providing a desktop virtualization solution that includes 
-1.Moodle for Course and Test management
-2.Gcc compiler
-3.Remote Terminal instead of telnet/ssh
-4.Control panel for the Virtual Machines
-5.Ubuntu 12.04 Desktop
-6.Windows XP Desktop
+To provide complete E-Learning solution i.e Student should be able to use whatever operating system or applications that they want to use in their minimal device. So here we are providing a desktop virtualization solution that includes <br>
+1.Moodle for Course and Test management<br>
+2.Gcc compiler<br>
+3.Remote Terminal instead of telnet/ssh<br>
+4.Control panel for the Virtual Machines<br>
+5.Ubuntu 12.04 Desktop<br>
+6.Windows XP Desktop<br>
